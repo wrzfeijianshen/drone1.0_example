@@ -1,0 +1,12 @@
+kind: pipeline
+name: default
+
+platform:
+  os: linux
+
+steps:
+- name: build
+  image: golang
+  commands:
+  - go version
+  - go version
